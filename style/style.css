@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(234, 224, 209);
+    font-family: 'Gill Sans', 'Gill Sans MT', 
+    Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.HEADER{
+    text-align: center;
+    padding: 0%;
+}
+
+
+.menu{
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+.menu a{
+    padding-right: 20px;
+}
+.intro{
+   background-color: aliceblue;
+   padding: 45px;
+   
+}
+
+ .intro img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+   
+}
+.intro h2 p{
+    display: inline-block;
+  vertical-align: top;
+}
+
+.about{
+    background-color: aliceblue;
+    
+}
+.about h2{
+    text-align: center;
+    
+}
+.about p{
+    padding-left: 10px;
+}
+
+.projects{
+    background-color: aliceblue;
+    border: 2px solid black;
+    border-bottom: 10px solid greenyellow;
+    border-radius: 45px ;
+
+}
+.projects  h2{
+    
+   text-align: center;
+   padding-top: 10px;
+   
+   
+}
+.hr1{
+    height: 10px;
+}
+
+.p-list{ 
+    display: flex;    
+}
+.p-list .p{
+    border-inline-start: 4px solid gold;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+   }
+
+.contact{
+    background-color: aliceblue;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 40px;
+
+
+}
+.info{
+    padding-left:35%;
+    text-align: start;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+
+}
